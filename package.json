@@ -1,0 +1,27 @@
+{
+  "name": "lawnwash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./css/output.css --minify",
+    "start": "live-server --port=3003",
+    "dev": "npm run build-css & npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragmann2/lawnwash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragmann2/lawnwash/issues"
+  },
+  "homepage": "https://github.com/ragmann2/lawnwash#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.7"
+  }
+}

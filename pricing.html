@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - LawnWash | Affordable Lawn Care & Power Washing</title>
+    <meta name="description" content="Transparent, project-based pricing for lawn care and power washing services in Canyon Creek and Richardson, TX.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    colors: {
+                        'lawn-green': {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <!-- Navigation (Same as homepage) -->
+    <nav class="fixed top-0 w-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-lg z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center space-x-2">
+                    <span class="text-2xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">LawnWash</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition font-medium">Home</a>
+                    <a href="services.html" class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition font-medium">Services</a>
+                    <a href="pricing.html" class="text-green-600 dark:text-green-400 font-medium">Pricing</a>
+                    <a href="about.html" class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition font-medium">About</a>
+                    <a href="contact.html" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full transition font-medium">Get Quote</a>
+                </div>
+                <button class="md:hidden" onclick="toggleMobileMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden bg-white dark:bg-gray-900 border-t dark:border-gray-800">
+            <div class="px-4 py-4 space-y-3">
+                <a href="index.html" class="block text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition font-medium">Home</a>
+                <a href="services.html" class="block text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition font-medium">Services</a>
+                <a href="pricing.html" class="block text-green-600 dark:text-green-400 font-medium">Pricing</a>
+                <a href="about.html" class="block text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition font-medium">About</a>
+                <a href="contact.html" class="block bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full transition font-medium text-center">Get Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-24 pb-12 px-4 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Simple, Fair Pricing</h1>
+            <p class="text-xl text-gray-600 dark:text-gray-400">Custom quotes for every project</p>
+        </div>
+    </section>
+
+    <!-- Pricing Introduction -->
+    <section class="py-12 px-4">
+        <div class="container mx-auto max-w-4xl text-center">
+            <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-2xl p-6 mb-12">
+                <p class="text-lg text-blue-800 dark:text-blue-200">
+                    <strong>Project-Based Pricing:</strong> Every property is unique, so we provide customized quotes based on your specific needs and property size.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="py-8 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Lawn Care Pricing -->
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-600 to-green-500 p-6 text-white">
+                        <h2 class="text-2xl font-bold mb-2">Lawn Care Services</h2>
+                        <p>Professional mowing, edging, trimming & cleanup</p>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-8">
+                            <h3 class="text-xl font-bold mb-4">Typical Price Ranges:</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center pb-3 border-b dark:border-gray-700">
+                                    <span class="text-gray-600 dark:text-gray-400">Small Yards (up to 5,000 sq ft)</span>
+                                    <span class="font-bold">$30 - $45</span>
+                                </div>
+                                <div class="flex justify-between items-center pb-3 border-b dark:border-gray-700">
+                                    <span class="text-gray-600 dark:text-gray-400">Medium Yards (5,000 - 10,000 sq ft)</span>
+                                    <span class="font-bold">$45 - $65</span>
+                                </div>
+                                <div class="flex justify-between items-center pb-3">
+                                    <span class="text-gray-600 dark:text-gray-400">Large Yards (10,000+ sq ft)</span>
+                                    <span class="font-bold">$65+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-green-50 dark:bg-green-900/20 rounded-lg p-4 mb-6">
+                            <h4 class="font-bold mb-2">Service Includes:</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>✓ Professional mowing at optimal height</li>
+                                <li>✓ Edging along all hard surfaces</li>
+                                <li>✓ Trimming around obstacles</li>
+                                <li>✓ Complete cleanup of clippings</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="contact.html" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold transition">
+                                Get Your Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Power Washing Pricing -->
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-blue-500 p-6 text-white">
+                        <h2 class="text-2xl font-bold mb-2">Power Washing</h2>
+                        <p>Driveways, patios, sidewalks & fences</p>
+                    </div>
+                    <div class="p-8">
+                        <div class="mb-8">
+                            <h3 class="text-xl font-bold mb-4">Typical Price Ranges:</h3>
+                            <div class="space-y-3">
+                                <div class="flex justify-between items-center pb-3 border-b dark:border-gray-700">
+                                    <span class="text-gray-600 dark:text-gray-400">Driveways</span>
+                                    <span class="font-bold">$80 - $150</span>
+                                </div>
+                                <div class="flex justify-between items-center pb-3 border-b dark:border-gray-700">
+                                    <span class="text-gray-600 dark:text-gray-400">Patios/Decks</span>
+                                    <span class="font-bold">$60 - $120</span>
+                                </div>
+                                <div class="flex justify-between items-center pb-3 border-b dark:border-gray-700">
+                                    <span class="text-gray-600 dark:text-gray-400">Sidewalks</span>
+                                    <span class="font-bold">$40 - $80</span>
+                                </div>
+                                <div class="flex justify-between items-center pb-3">
+                                    <span class="text-gray-600 dark:text-gray-400">Fences</span>
+                                    <span class="font-bold">$100 - $200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 mb-6">
+                            <h4 class="font-bold mb-2">Benefits:</h4>
+                            <ul class="text-sm space-y-1">
+                                <li>✓ Removes years of buildup</li>
+                                <li>✓ Eliminates stains and mildew</li>
+                                <li>✓ Restores original appearance</li>
+                                <li>✓ Increases property value</li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition">
+                                Get Your Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Packages -->
+    <section class="py-16 px-4 bg-gray-100 dark:bg-gray-800">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-12">Service Options</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-lg">
+                    <h3 class="text-xl font-bold mb-4 text-green-600 dark:text-green-400">One-Time Service</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">Perfect for special occasions or seasonal cleanups</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <span class="text-green-500 mr-2">✓</span> No commitment required
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-green-500 mr-2">✓</span> Schedule as needed
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-green-500 mr-2">✓</span> Same quality service
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-lg border-2 border-green-500">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-green-600 dark:text-green-400">Bi-Weekly Service</h3>
+                        <span class="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-sm px-3 py-1 rounded-full">Popular</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">Keep your property looking great all season</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <span class="text-green-500 mr-2">✓</span> Priority scheduling
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-green-500 mr-2">✓</span> Consistent maintenance
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-green-500 mr-2">✓</span> 10% discount on regular rate
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl font-bold text-center mb-12">Pricing FAQs</h2>
+            <div class="space-y-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+                    <h3 class="font-bold text-lg mb-2">How do you determine pricing?</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Pricing is based on property size, service complexity, and specific requirements. We'll provide a clear quote after assessing your needs.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Are there any hidden fees?</h3>
+                    <p class="text-gray-600 dark:text-gray-400">No! The quote you receive is the price you pay. We believe in transparent, honest pricing.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Do you offer discounts?</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Yes! Bi-weekly service customers receive a 10% discount. We also offer neighbor referral discounts.</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
+                    <h3 class="font-bold text-lg mb-2">When is payment due?</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Payment is due upon completion of service. We accept cash, check, or Venmo for your convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-4 bg-gradient-to-r from-green-600 to-green-500 dark:from-green-700 dark:to-green-600">
+        <div class="container mx-auto text-center text-white">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Get Your Free Custom Quote</h2>
+            <p class="text-xl mb-8">No obligations, just honest pricing for quality service</p>
+            <a href="contact.html" class="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-semibold transition transform hover:scale-105 inline-block">
+                Request Quote Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer (Same as homepage) -->
+    <footer class="bg-gray-900 text-gray-300 py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-4">LawnWash</h3>
+                    <p class="text-gray-400">Professional lawn care by a dedicated local teen entrepreneur.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="hover:text-green-400 transition">Services</a></li>
+                        <li><a href="pricing.html" class="hover:text-green-400 transition">Pricing</a></li>
+                        <li><a href="about.html" class="hover:text-green-400 transition">About</a></li>
+                        <li><a href="contact.html" class="hover:text-green-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Service Area</h4>
+                    <p class="text-gray-400">Canyon Creek<br>Richardson, TX<br>And surrounding areas</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Hours</h4>
+                    <p class="text-gray-400">Available 7 days a week<br>During summer season<br>Flexible scheduling</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p>&copy; 2024 LawnWash. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
