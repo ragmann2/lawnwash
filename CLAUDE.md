@@ -4,26 +4,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**LawnWash** - A website for a summer lawn mowing and power washing business serving the local neighborhood. This is a small business website for a 16-year-old entrepreneur's summer job.
+**LawnWash** - A website for a summer power washing business serving the local neighborhood. This is a small business website for a 17-year-old entrepreneur's summer job. The brand name "LawnWash" is retained (the domain is rileylawnwash.com), but the business itself now offers power washing only — no lawn mowing or lawn care.
 
 ### Business Services
-
-**Lawn Care Services:**
-- Mowing
-- Edging
-- Weed eating (trimming)
-- Cleanup
 
 **Power Washing Services:**
 - Driveways
 - Patios
 - Sidewalks
 - Fences
+- Trash cans
 
 ### Service Details
 - **Pricing**: By project (customized quotes)
 - **Availability**: Every day during summer
-- **Scheduling**: Both one-time services and bi-weekly maintenance
+- **Scheduling**: One-time service only (no recurring/bi-weekly)
 - **Service Area**: Canyon Creek neighborhood and Richardson, TX (with flexibility for nearby areas)
 
 ### Value Proposition
@@ -37,7 +32,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Canyon Creek neighborhood residents
 - Richardson, TX homeowners
 - People who value supporting young entrepreneurs
-- Customers looking for reliable, detail-oriented lawn care
+- Customers looking for reliable, detail-oriented power washing
 
 ### Website Goals
 - Present services professionally
@@ -48,7 +43,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Technical Requirements
 
 ### Design System
-- **Visual Style**: Professional and clean design with appropriate colors for a lawn care business
+- **Visual Style**: Professional and clean design with appropriate colors for a power washing business
 - **Responsive**: Mobile-first responsive design
 - **Theme**: Automatic light/dark mode based on user's system preferences (no toggle switch)
 - **Styling**: Tailwind CSS for utility-first styling
@@ -65,5 +60,5 @@ This project has not been initialized yet. When setting up this project, future 
 2. Implement Tailwind CSS for styling
 3. Set up automatic light/dark mode using Tailwind's dark mode classes with system preference detection
 4. Ensure all pages are fully responsive
-5. Create a professional color scheme suitable for a lawn care/power washing business
+5. Create a professional color scheme suitable for a power washing business
 6. Update this file with build and deployment commands as the project develops
