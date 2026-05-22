@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Canyon Creek Power Washing** - A website for a summer power washing business serving the local neighborhood. This is a small business website for a 17-year-old entrepreneur's summer job. The site lives at canyoncreekpowerwashing.com (formerly rileylawnwash.com — the old domain still exists at iwantmyname but is no longer pointed at this site).
+**Canyon Creek Power Washing** - A website for a summer power washing business serving the local neighborhood. This is a small business website for a 17-year-old entrepreneur's summer job. The site lives at canyoncreekpowerwashing.com (formerly rileylawnwash.com; the old domain still exists at iwantmyname but is no longer pointed at this site).
 
 ### Business Services
 
